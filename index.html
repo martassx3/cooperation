@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz App</title>
+    <link href="quiz.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <script src="question.js"></script>
+    <script src="quiz-script.js"></script>
+    <!-- <script src="sssstt.js"></script> -->
+
+</head>
+<body onload="startQuestion();">
+    <div id="quizContainer" class="container">
+        <div class="title">PIGNUS</div>
+        <div id="question" class="question"></div>
+        <label class="option">A. <input type="radio" name="option" value="A"/><span id="opt1"></span> </label>
+        <label class="option">B. <input type="radio" name="option" value="B"/><span id="opt2"></span> </label>
+        <label class="option">C. <input type="radio" name="option" value="C"/><span id="opt3"></span> </label>
+        <label class="option">D. <input type="radio" name="option" value="D"/><span id="opt4"></span> </label>
+         <label class="result"> <span id="result"></span> </label>
+         <p>Score Team 1</p>
+         <progress id="progressbar" value= "" max="200"></progress>       
+        <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>    
+    </div>
+
+    <!--This help to display the result to the user-->
+    <div id="result" class="container result" style="display:none"></div>
+   
+    <!-- This help to display restaart button -->
+    <div id="gotoHome" class="homeBtnCon"  style="display:none">
+        <button id="homeButton" class="home-btn" onclick="home();">Restart Quiz</button>  
+    </div>
+    
+
+   
+
+</body>
+</html>
