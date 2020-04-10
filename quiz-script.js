@@ -36,7 +36,7 @@ const COLOR_CODES = {
 };
 
 
-const TIME_LIMIT = 20;
+const TIME_LIMIT = 300;
 let timePassed = 0;
 let timeLeft = TIME_LIMIT;
 let timerInterval = null;
@@ -173,7 +173,7 @@ function loadNextQuestion()
         {
             
             if (currentQuestion == 1){
-                alert('Correct! Reflection:'); //Reflection facebook
+                alert('Correct! Reported in 2019, Facebook has more than 7 million active advertisers which use the social network to promote their products and services.'); //Reflection facebook
                 scoreteam1 +=10;
             }else  if (currentQuestion == 2){
                 alert('Correct! Reflection:'); //Reflection insta
@@ -185,7 +185,7 @@ function loadNextQuestion()
                 alert('Correct! Reflection:'); //Relfection snapchat
                 scoreteam1 +=10;
             }else  if (currentQuestion == 6){
-                alert('Correct! Reflection:'); //Reflection insta
+                alert('Correct! Reported in 2019, Facebook has more than 7 million active advertisers which use the social network to promote their products and services.'); //Reflection insta
                 scoreteam2 +=10;
             }else  if (currentQuestion == 7){
                 alert('Correct! Reflection:'); //Reflection twitter
@@ -366,8 +366,3 @@ function setCircleDasharray() {
     .getElementById("base-timer-path-remaining")
     .setAttribute("stroke-dasharray", circleDasharray);
 }
-
-
-
-
-

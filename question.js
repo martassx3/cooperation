@@ -11,12 +11,12 @@ var questions = [
     },
     {
 // question 1
-        question:"Team 1 selected: FACEBOOK",
-        option1:"bad",
-        option2:"really bad",
-        option3:"even more bad",
-        option4:"oh",
-        answer:"A"
+        question:"Team 1 selected: FACEBOOK." + "\n" +" Question: How many active advertisers promote their content through Facebook?",
+        option1:"A few thousand",
+        option2:"Around 500.000",
+        option3:"More than 5 million",
+        option4:"More than 10 million",
+        answer:"C"
     },
     {
 // question 2
@@ -59,12 +59,12 @@ var questions = [
     },
         {
 // question 6
-        question:"Team 2 selected: FACEBOOK",
-        option1:"bad",
-        option2:"really bad",
-        option3:"even more bad",
-        option4:"oh",
-        answer:"A"
+        question:"Team 2 selected: FACEBOOK." + "\n" +" Question: How many active advertisers promote their content through Facebook?",
+        option1:"A few thousand",
+        option2:"Around 500.000",
+        option3:"More than 5 million",
+        option4:"More than 10 million",
+        answer:"C"
     },
     {
 // question 7
